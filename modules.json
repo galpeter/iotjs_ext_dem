@@ -1,0 +1,10 @@
+{
+  "modules": {
+    "mymodule": {
+      "js_file": "hello_world.js",
+      "native_files": ["hello_module.c"],
+      "init": "InitMyNativeModule",
+      "cmakefile": "extra.cmake"
+    }
+  }
+}
